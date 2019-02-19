@@ -1,0 +1,10 @@
+* What is this?
+In this repository I have all my code that
+- Does not deserve a separate repository
+- Only some experiments with new libs or programming languages
+
+If a codebase exceeds the limit of usability I separate it to its own repository
+
+* Projects
+** Basic backtester
+This is the code in the ~basic_backtester~ subdirectory
