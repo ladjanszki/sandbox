@@ -1,0 +1,28 @@
+* Intro
+During the last years I did not have as much time developing code. So as I getting back to track again I decided to have a doc about best practices.
+
+* Tools
+** For version control use GitHub
+** As IDE use Emacs
+** Develop in a virtualenv
+** Test the dependencies in Docker
+* Development
+** Naming a Python project
+** Repo structure
+*** One file project
+First start small. 
+- Have just on source file
+- one tests file
+- Have a LICENSE
+- requirements.txt
+- .gitignore
+- README.org
+*** Multiple file project
+- Put all the code into a Python module.
+- Put test fo all the classes and functions into its own tests module
+- Have a main file named the same as the module 
+  This can be used as a command line starting point for the applications
+* Libraries
+** Pandas
+** Unittests
+** Numpy
