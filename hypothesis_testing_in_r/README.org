@@ -1,0 +1,28 @@
+#+STARTUP: overwiev
+#+STARTUP: hidestars
+#+STARTUP: indent
+#+TITLE:	Hypothesis testing in R 
+#+AUTHOR:	Istvan Ladjanszki
+#+EMAIL:	istvan.ladjanszki@gmail.com
+
+* What's this?
+  This directory is my playgroung to practice statistics in R. 
+
+* Statistical significance
+/Statistical significance means this data is very unlikely to happen given the null hypothesis./
+- We have to have and initial hypothesis $(H_0)$ 
+- Most of the time it is some parameter in the distribution we assume (e.g. $H_0$ states that the mean equals $\mu_0 = \mu$, the mean is a given number).
+- We have data $\bar{x}$
+  
+#+BEGIN_LaTeX
+\begin{equation}
+Z = \frac{x}{\sigma}
+\end{equation}
+#+END_LaTeX
+
+* Material
+
+** Peter Dalgaard - Introductory Statistics with R
+
+  
+
